@@ -21,7 +21,7 @@ monogram
 
 ```
 
-### Then we Calculated the amount of seconds in someone's age
+### Then we Calculated the amount of seconds in someone's age:
 
 ```ruby
 
@@ -50,7 +50,7 @@ myage * secondsinayear
 
 ```
 
-### We also did this
+### We also did this:
 
 ```ruby
 
@@ -64,5 +64,46 @@ var abletospeak=true
 undefined
 isalive
 true
+
+```
+
+### And lastly:
+
+```ruby
+
+// incrementing up or down
+undefined
+var clouds = 100
+undefined
+clouds = clouds + 1
+101
+clouds = clouds + 1
+102
+clouds = clouds + 1
+103
+clouds = clouds + 1
+104
+++clouds
+105
+clouds =clouds-1
+104
+--clouds
+103
+--clouds
+102
+--clouds
+101
++=clouds
+VM1670:1 Uncaught SyntaxError: Unexpected token +=
+clouds = "words"
+"words"
+clouds
+"words"
+clouds = null
+null
+clouds
+null
+clouds = 300
+300
 
 ```
