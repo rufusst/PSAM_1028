@@ -1,3 +1,7 @@
+### This is my code snippet:
+
+```ruby
+
 var firstName = "Rufus"
 undefined
 var lastName = "stott"
@@ -14,3 +18,5 @@ var monogram = firstletter + lastletter
 undefined
 monogram
 "Rs"
+
+```
