@@ -49,3 +49,20 @@ myage * secondsinayear
 2428272000
 
 ```
+
+### We also did this
+
+```ruby
+
+var isalive=true
+undefined
+var isdead=true
+undefined
+var redevileyes = false
+undefined
+var abletospeak=true
+undefined
+isalive
+true
+
+```
