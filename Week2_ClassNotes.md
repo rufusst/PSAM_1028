@@ -23,7 +23,7 @@ monogram
 
 ### Then we Calculated the amount of seconds in someone's age
 
-```rudy
+```ruby
 
 var secondsinaminute = 60
 undefined
