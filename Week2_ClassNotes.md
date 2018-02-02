@@ -20,3 +20,32 @@ monogram
 "Rs"
 
 ```
+
+### Then we Calculated the amount of seconds in someone's age
+
+```rudy
+
+var secondsinaminute = 60
+undefined
+var minutesinanhour = 60
+undefined
+secondsinahour = secondsinaminute * minutesinanhour
+3600
+var hoursinaday = 24
+undefined
+var secondsinaday = secondsinahour * hoursinaday
+undefined
+secondsinaday
+86400
+var daysinayear = 365
+undefined
+var secondsinayear = secondsinaday * daysinayear
+undefined
+secondsinayear
+31536000
+var myage = 77
+undefined
+myage * secondsinayear
+2428272000
+
+```
