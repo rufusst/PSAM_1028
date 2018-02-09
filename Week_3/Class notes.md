@@ -1,4 +1,4 @@
-####The first thing we did:
+#### The first thing we did:
 
 ```ruby
 //chapter 3
@@ -65,7 +65,7 @@ mynestedarrayoffruit = [["apple","red","worm"],["bannan","yellow","bruise"],["cu
 
 ```
 
-####Then we did this:
+#### Then we did this:
 
 ```ruby
 
@@ -122,4 +122,84 @@ colourarray.push("grey")
 colourarray.push("yellow")
 2
 
+```
+
+#### And
+
+```ruby 
+// Concatenate, or attached, 2 arrays
+undefined
+var ledcolourarray = ["red,"green","blue"]
+VM1749:1 Uncaught SyntaxError: Unexpected identifier
+var ledcolourarray = ["red","green","blue"]
+undefined
+var grayscalearray = ["white","grey","black"]
+undefined
+var mylargecolourarray = ledcolourarray.concat[grayscalearray]
+undefined
+mylargecolourarray
+undefined
+var ledcolourarray = ["red","green","blue"]
+undefined
+ledcolourarray.indexOf("red")
+0
+ledcolourarray.indexOf("red")
+0
+ledcolourarray.indexOf("Red")
+-1
+var ledcolourarray = ["red","green","blue"]
+undefined
+ledcolourarray.join(" is better than ")
+"red is better than green is better than blue"
+ledcolourarray.join(" ? ")
+"red ? green ? blue"
+math.random()
+VM1949:1 Uncaught ReferenceError: math is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM1949:1
+Math.random()
+0.34721912648393594
+Math.random() * 10
+2.3087994508816023
+Math.random() * 10
+2.2269911679468257
+Math.random() * 10
+7.27472868282746
+Math.random() * 10
+1.2927203101819051
+Math.random() * 10
+7.065238583419921
+Math.random() * 10
+1.011685725837923
+Math.random() * 10
+8.636320496333767
+Math.random() * 100
+71.34592192793153
+Math.random() * 5
+3.5334267323121415
+math.floor(9.999)
+VM2011:1 Uncaught ReferenceError: math is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM2011:1
+Math.floor(5.9999)
+5
+Math.floor(Math.random() * 10)
+6
+Math.floor(Math.random() * 10)
+4
+```
+#### And
+
+```ruby
+
+ar peptalkphrase = ["Yes","keep going:=","you are doing it","keep it up","Go","rarara","you got this"]
+undefined
+var gymactivities = ["lift","bike","jump","run","zumba"]
+undefined
+var randompep = peptalkphrase[Math.floor(Math.random() * peptalkphrase.length)]
+undefined
+var randomaction = gymactivities[Math.floor(Math.random() * gymactivities.length)]
+undefined
+var fulltrainerphrase = randompep + " with your " + randomaction + " action!!!"
+undefined
 ```
