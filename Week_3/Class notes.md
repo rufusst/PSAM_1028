@@ -202,4 +202,5 @@ var randomaction = gymactivities[Math.floor(Math.random() * gymactivities.length
 undefined
 var fulltrainerphrase = randompep + " with your " + randomaction + " action!!!"
 undefined
+fulltrainerphrase
 ```
