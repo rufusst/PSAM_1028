@@ -73,10 +73,6 @@ mynestedarrayoffruit = [["apple","red","worm"],["bannan","yellow","bruise"],["cu
 undefined
 var mysimplefruitarray = []
 undefined
-mysimplefruitarray.push[]
-VM1227:1 Uncaught SyntaxError: Unexpected token ]
-mysimplefruitarray.push[]
-VM1229:1 Uncaught SyntaxError: Unexpected token ]
 mysimplefruitarray.push()
 0
 mysimplefruitarray.push("apple")
@@ -99,10 +95,6 @@ colourarray.unshift("yellow")
 4
 colourarray
 (4) ["yellow", "red", "green", "blue"]
-colourarray,unshift("purple")
-VM1383:1 Uncaught ReferenceError: unshift is not defined
-    at <anonymous>:1:1
-(anonymous) @ VM1383:1
 colourarray.unshift("purple")
 5
 // .po removing elements from end of an array
