@@ -1,10 +1,9 @@
-```ruby
+####The first thing we did:
 
+```ruby
 //chapter 3
 //list of things
 var myfruitarray = ["","",""]
-
-
 undefined
 myfruitarray
 (3) ["", "", ""]0: ""1: ""2: ""length: 3__proto__: Array(0)
