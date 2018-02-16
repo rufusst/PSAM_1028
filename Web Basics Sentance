@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title> Ghost Title Creator </title> 
+</head>
+
+<body>
+
+<h1> Welcome to My Ghost Title Creator</h1>
+
+<h2> Look at the console will refresh page </h2>
+
+<script type="text/javascript">
+var ghostintro = ["Lost in the", "In the Dark", "Inside the", "In the", "Enter the", "A Night in the"]
+undefined
+var ghostdescriptions = [" Creepy", " Spooky", " Undead", " Haunted", " Moonlit", " Eerie", " Dark", " Chilling", " Scary", " Trembling"]
+undefined
+var ghostlocations = [" Old house", " Abandoned Mine", " Dungeon", " Forest", " Basement", " Attic" , " Cave", " Woods", " Abandoned House", " Cellar"]
+undefined
+
+console.log(ghostintro(Math.floor(Math.random() * 6)] + ghostdescriptions[Math.floor(Math.random() * 10)] + ghostlocations[Math.floor(Math.random() * 10)])
+
+</script> 
+
+
+
+
+
+</body>
+
+
+</html>
