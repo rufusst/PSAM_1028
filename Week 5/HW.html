@@ -1,0 +1,74 @@
+```ruby
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Guess the Cities in Europe </title>
+</head>
+<body>
+	<script type="text/javascript">
+
+
+//create an array of words
+var words = [ "paris","london","berlin" ]
+
+// pick a random word
+var word = words[Math.floor(Math.random() * words.length)]
+
+console.log("Random word is:" + word)
+
+//set up the answer array
+var answerarray = [] //start with empty array
+
+for (var i = 0; i < word.length; i++)
+	{ answerarray[i] = "_" // makes array of empty spaces
+}
+
+var remainingletters = word.length
+
+var guesses = 8 // can change
+
+//the game loop
+while (remainingletters > 0 && guesses > 0) {
+	console.log("answerarray1 = " + answerarray)
+	console.log("word.length = " + word.length )
+	console.log("remainingletters = " + remainingletters)
+
+	alert(answerarray.join(" "))
+
+	var guess = prompt("Guess a letter, or click the Cancel to stop playing");
+	guesses--; //change
+	guess = guess.toLowerCase()
+	if (guess === null){ //user said cancel
+		break  //exit the while game loop
+	} else if (guess.length !== 1 ){
+		console.log( "answerarray2 = " + answerarray)
+		alert("Please enter a single letter.")
+
+	} else {
+		// UPdate the game state with the guess
+		for (var j = 0; j < word.length; j++){
+			if (word[j] === guess && answerarray[j] === "_") //change second half
+
+		{
+				answerarray[j] = guess;
+				remainingletters--;
+			}
+		}
+	}
+// end of game loop
+}
+
+// show anser and congrad the player
+alert(answerarray.join(" "))
+if (guesses > 0) {
+	alert("Good Job! You Guessed: " + word)
+} else{
+	alert("Too bad! The answer was " + word)
+}
+
+
+
+</script> </body> </html>
+	
+```
