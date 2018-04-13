@@ -1,0 +1,96 @@
+~
+<!DOCTYPE html>
+<html>
+<head>
+	<title>We Won!!</title>
+<style >
+h2 { word-spacing: 40px;}
+</style>
+</head>
+<body style= "background-image: url(https://i.imgur.com/vIf0lAD.gif)" >
+
+	<h1 id="mouseheading"> 🥇 </h1>
+
+	<h2 id="ball" > <pre>⚽️    🥇  ⚽️ </pre> </h2>
+
+	<h2 id="ball2" > <pre>  🥇  ⚽️  🥇 </pre> </h2>
+
+	<h2 id="ball3"> <pre>⚽️    🥇   ⚽️ </pre> </h2>
+
+	<h2 id="ball4"> <pre>    🥇   ⚽️   🥇</pre> </h2> 
+	<h1 id="main-heading"> <center>
+		<br>
+		<br>
+		<br>
+		<br>
+		<font color="white"> <font size="25">The Best Team Won!</font></font>
+	</center>
+</h1>
+
+
+<script src ="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+
+<script type="text/javascript">
+
+
+
+var leftOffSet = 0
+	var moveHeading = function(){
+			//changed the text of myHeading
+
+		$("#ball").offset({left: leftOffSet})
+
+		$("#ball2").offset({left: leftOffSet})
+
+		$("#ball3").offset({left: leftOffSet})
+
+		$("#ball4").offset({left: leftOffSet})
+
+
+		leftOffSet++
+
+		if (leftOffSet > 800){
+			leftOffSet = 20
+		}
+	}
+
+setInterval(moveHeading, 15)
+
+$("html").mousemove(function(event){
+
+
+		$("#mouseheading").offset({
+			left: event.pageX,
+			top: event.pageY
+		})
+	})
+
+$("#main-heading").fadeOut(10).fadeIn(5000)
+
+//var changeRed = function(){
+	//$("#football").css('color', blue);
+	//$("#football").offset({left:0, right:2})
+//}
+
+//var changeBlue = function(){
+	//$("#football").css('color', blue);
+	//$("#football").offset({left:2, right:0})
+//}
+
+//setInterval(changeRed, 50)
+//setInterval(changeBlue, 100)
+
+</script>
+
+<pre> <center> <font color="white"><font size="10">
+                     ___
+ o__        o__     |   |\
+/|          /\      |   |X\
+/ > o        <\     |   |XX\
+</font> </font>
+</center>
+</pre>
+</body>
+</html>
+~
